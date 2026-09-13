@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "mh-gad-1",
+    "name": "SEARCH Shodhgram Hospital (Dr. Abhay Bang)",
+    "district": "Gadchiroli",
+    "taluka": "Dhanora",
+    "address": "Shodhgram, Post Chatgaon, Taluka Dhanora, Gadchiroli - 442605",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 18.0,
+    "lat": 20.152,
+    "lng": 80.215,
+    "speciality": "Pioneering Rural & Tribal Healthcare, Neonatal Care, Alcohol Addiction, Spine & General Surgery",
+    "emergency": true,
+    "hours": "24x7 Emergency",
+    "status": "Open 24 Hours",
+    "phone": "+91 7138 255400",
+    "costRange": "Highly Subsidized / Free for Tribals",
+    "beds": "100",
+    "doctors": "15",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Tribal Medicine",
+      "Neonatal Intensive Care",
+      "General Surgery",
+      "Addiction Psychiatry",
+      "Community Health"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Ultrasound",
+      "Malaria & Sickle Cell Lab",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "MJPJAY",
+      "Charity Quota"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "National Sickle Cell Mission"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SEARCH+Shodhgram+Hospital+(Dr.+Abhay+Bang),+Shodhgram,+Post+Chatgaon,+Taluka+Dhanora,+Gadchiroli+-+442605"
+  },
+  {
+    "id": "mh-gad-2",
+    "name": "District Civil Hospital Gadchiroli",
+    "district": "Gadchiroli",
+    "taluka": "Gadchiroli",
+    "address": "Complex Area, Gadchiroli Headquarter - 442605",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 5.2,
+    "lat": 20.184,
+    "lng": 79.998,
+    "speciality": "Apex District Government Hospital, Trauma, Sickle Cell Anaemia, Snake Bite Treatment",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7132 222122",
+    "costRange": "100% Free",
+    "beds": "350",
+    "doctors": "42",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency & Trauma",
+      "Sickle Cell Center",
+      "Pediatrics & SNCU",
+      "Maternity",
+      "General Surgery"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Sickle Cell Electrophoresis",
+      "Blood Storage"
+    ],
+    "insurance": [
+      "PM-JAY Cashless",
+      "MJPJAY 100% Free"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "National Sickle Cell Elimination Mission",
+      "JSY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Gadchiroli,+Complex+Area,+Gadchiroli+Headquarter+-+442605"
+  },
+  {
+    "id": "mh-gad-3",
+    "name": "Sub-District Hospital Kurkheda",
+    "district": "Gadchiroli",
+    "taluka": "Kurkheda",
+    "address": "State Highway 354, Kurkheda, Gadchiroli - 441209",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 32.0,
+    "lat": 20.575,
+    "lng": 80.178,
+    "speciality": "Sub-District Rural Healthcare, Emergency Trauma, Malaria & Dengue Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7137 232100",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "12",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency OPD",
+      "Obstetrics & Maternity",
+      "Inpatient Wards",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Rapid Diagnostic Malaria Lab",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Kurkheda,+State+Highway+354,+Kurkheda,+Gadchiroli+-+441209"
+  },
+  {
+    "id": "mh-gad-4",
+    "name": "Primary Health Centre (PHC) Bhamragarh",
+    "district": "Gadchiroli",
+    "taluka": "Bhamragarh",
+    "address": "Hemalkasa-Bhamragarh Road, Deep Forest Area, Gadchiroli - 442710",
+    "type": "Government",
+    "category": "PHC",
+    "distance": 68.0,
+    "lat": 19.389,
+    "lng": 80.354,
+    "speciality": "Remote Tribal Primary Care, Snake Bite Venom Treatment, Institutional Delivery",
+    "emergency": true,
+    "hours": "24x7 Emergency",
+    "status": "Open 24 Hours",
+    "phone": "+91 7134 220108",
+    "costRange": "Free",
+    "beds": "15",
+    "doctors": "3",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Tribal OPD",
+      "Labor Room",
+      "Anti-Snake Venom Centre",
+      "Immunization"
+    ],
+    "diagnostics": [
+      "Rapid Malaria Testing",
+      "Hemoglobinometer",
+      "Urine Routine"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "National Health Mission"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Primary+Health+Centre+(PHC)+Bhamragarh,+Hemalkasa-Bhamragarh+Road,+Deep+Forest+Area,+Gadchiroli+-+442710"
+  },
+  {
+    "id": "mh-nan-1",
+    "name": "District Civil Hospital Nandurbar",
+    "district": "Nandurbar",
+    "taluka": "Nandurbar",
+    "address": "Sakri Road, Near District Collector Office, Nandurbar - 425412",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 6.0,
+    "lat": 21.368,
+    "lng": 74.238,
+    "speciality": "District Apex Facility, Malnutrition Stabilization (NRC), Sickle Cell Care, Trauma",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2564 222204",
+    "costRange": "Free",
+    "beds": "300",
+    "doctors": "40",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Nutrition Rehabilitation Center (NRC)",
+      "Sickle Cell Clinic",
+      "Obstetrics & NICU",
+      "General Surgery"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "X-Ray",
+      "Ultrasound",
+      "Blood Component Unit"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "National Sickle Cell Mission",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Nandurbar,+Sakri+Road,+Near+District+Collector+Office,+Nandurbar+-+425412"
+  },
+  {
+    "id": "mh-nan-2",
+    "name": "Sub-District Hospital Dhadgaon (Akrani)",
+    "district": "Nandurbar",
+    "taluka": "Dhadgaon",
+    "address": "Main Market, Akrani Tribal Hills, Dhadgaon, Nandurbar - 425414",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 45.0,
+    "lat": 21.821,
+    "lng": 74.225,
+    "speciality": "Highland Tribal Hospital, Severe Acute Malnutrition (SAM) Care, High-Risk Delivery",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2569 244100",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "10",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "SAM Ward & NRC",
+      "Maternity Wards",
+      "Emergency Trauma",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Point of Care Blood Testing",
+      "Hemoglobin"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "Kuposhan Mukti Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Dhadgaon+(Akrani),+Main+Market,+Akrani+Tribal+Hills,+Dhadgaon,+Nandurbar+-+425414"
+  },
+  {
+    "id": "mh-nan-3",
+    "name": "Primary Health Centre (PHC) Toranmal",
+    "district": "Nandurbar",
+    "taluka": "Shahada",
+    "address": "Toranmal Plateau, Satpura Hills, Nandurbar - 425432",
+    "type": "Government",
+    "category": "PHC",
+    "distance": 52.0,
+    "lat": 21.875,
+    "lng": 74.453,
+    "speciality": "Remote Hill-Top Tribal PHC, Emergency Oxygen, Institutional Deliveries",
+    "emergency": true,
+    "hours": "24x7 Emergency",
+    "status": "Open 24 Hours",
+    "phone": "+91 2565 260108",
+    "costRange": "Free",
+    "beds": "12",
+    "doctors": "2",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Labor Room",
+      "Oxygen Support Ward",
+      "OPD Clinic",
+      "Vaccination"
+    ],
+    "diagnostics": [
+      "Rapid Diagnostic Tests",
+      "Hb",
+      "Blood Sugar"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Primary+Health+Centre+(PHC)+Toranmal,+Toranmal+Plateau,+Satpura+Hills,+Nandurbar+-+425432"
+  },
+  {
+    "id": "mh-nan-4",
+    "name": "Ashwini Rural Hospital & Research Centre",
+    "district": "Nandurbar",
+    "taluka": "Shahada",
+    "address": "Shahada-Khetia Road, Shahada, Nandurbar - 425409",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 28.0,
+    "lat": 21.545,
+    "lng": 74.468,
+    "speciality": "Charitable Rural Multi-Speciality, Orthopedics, Intensive Care, Dialysis",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2565 223400",
+    "costRange": "₹300 – ₹18,000",
+    "beds": "80",
+    "doctors": "14",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "ICU",
+      "Dialysis",
+      "General Surgery",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound",
+      "Pathology Lab",
+      "ECG"
+    ],
+    "insurance": [
+      "MJPJAY",
+      "PM-JAY Empaneled",
+      "Star Health"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ashwini+Rural+Hospital+&+Research+Centre,+Shahada-Khetia+Road,+Shahada,+Nandurbar+-+425409"
+  },
+  {
+    "id": "mh-mel-1",
+    "name": "Sub-District Hospital Dharni (Melghat)",
+    "district": "Amravati",
+    "taluka": "Dharni",
+    "address": "Khandwa-Paratwada Road, Dharni, Melghat, Amravati - 444702",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 42.0,
+    "lat": 21.468,
+    "lng": 76.985,
+    "speciality": "Korku Tribal Healthcare Hub, Malnutrition Treatment (NRC), Snakebite & Poisoning Treatment",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7226 224210",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "14",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Nutritional Rehabilitation Center",
+      "NICU & Kangaroo Mother Care",
+      "Emergency Trauma",
+      "Surgery"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound Sonography",
+      "Pathology Lab"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Janani Suraksha Yojana",
+      "Melghat Special Health Package"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Dharni+(Melghat),+Khandwa-Paratwada+Road,+Dharni,+Melghat,+Amravati+-+444702"
+  },
+  {
+    "id": "mh-mel-2",
+    "name": "Rural Hospital Chikhaldara",
+    "district": "Amravati",
+    "taluka": "Chikhaldara",
+    "address": "Near Upper Plateau View, Chikhaldara, Melghat - 444807",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 38.0,
+    "lat": 21.401,
+    "lng": 77.325,
+    "speciality": "Hilly Tribal Rural Hospital, Emergency Stabilization, Maternity Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7220 230230",
+    "costRange": "Free",
+    "beds": "30",
+    "doctors": "6",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency First Response",
+      "Maternity",
+      "General OPD",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "Basic Pathology",
+      "X-Ray",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Chikhaldara,+Near+Upper+Plateau+View,+Chikhaldara,+Melghat+-+444807"
+  },
+  {
+    "id": "mh-mel-3",
+    "name": "MAHAN Trust Hospital & Intensive Care (Melghat)",
+    "district": "Amravati",
+    "taluka": "Dharni",
+    "address": "Khandwa Road, Melghat Tribal Region, Utavali, Amravati - 444702",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 46.0,
+    "lat": 21.482,
+    "lng": 77.012,
+    "speciality": "Renowned NGO Hospital (Dr. Ashish Satav), Severe Malnutrition (SAM), Blindness Elimination, Critical Tribal Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7226 224455",
+    "costRange": "Subsidized / Free for Korku Tribals",
+    "beds": "50",
+    "doctors": "8",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Pediatric ICU",
+      "Cataract Surgery",
+      "Community Nutrition",
+      "General Medicine"
+    ],
+    "diagnostics": [
+      "Automated Blood Lab",
+      "Ultrasound",
+      "Ophthalmic Slit Lamp"
+    ],
+    "insurance": [
+      "MJPJAY",
+      "NGO Charity Fund"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MAHAN+Trust+Hospital+&+Intensive+Care+(Melghat),+Khandwa+Road,+Melghat+Tribal+Region,+Utavali,+Amravati+-+444702"
+  },
+  {
+    "id": "mh-pal-1",
+    "name": "Sub-District Hospital Jawhar",
+    "district": "Palghar",
+    "taluka": "Jawhar",
+    "address": "Near Sunset Point Road, Jawhar Tribal Area, Palghar - 401603",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 35.0,
+    "lat": 19.912,
+    "lng": 73.231,
+    "speciality": "Tribal Healthcare Referral Center, SAM/MAM Nutrition Center, Maternal Emergency Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2520 222340",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "16",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "NRC Malnutrition",
+      "Emergency Trauma",
+      "Maternity & NICU",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound",
+      "Pathology Lab",
+      "Sickle Cell Screening"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Jawhar,+Near+Sunset+Point+Road,+Jawhar+Tribal+Area,+Palghar+-+401603"
+  },
+  {
+    "id": "mh-pal-2",
+    "name": "Rural Hospital Mokhada",
+    "district": "Palghar",
+    "taluka": "Mokhada",
+    "address": "Main Road, Mokhada Hilly Tribal Pocket, Palghar - 401604",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 48.0,
+    "lat": 19.935,
+    "lng": 73.342,
+    "speciality": "Remote Hilly Primary-Secondary Facility, Maternal Health, Child Dehydration & ORS Hub",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2520 240100",
+    "costRange": "Free",
+    "beds": "30",
+    "doctors": "5",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "OPD",
+      "Labor Room",
+      "Emergency Stabilization",
+      "Immunization"
+    ],
+    "diagnostics": [
+      "Basic Pathology",
+      "X-Ray",
+      "Hemoglobin"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Mokhada,+Main+Road,+Mokhada+Hilly+Tribal+Pocket,+Palghar+-+401604"
+  },
+  {
+    "id": "mh-pal-3",
+    "name": "District Civil Hospital Palghar",
+    "district": "Palghar",
+    "taluka": "Palghar",
+    "address": "Mahim Road, Palghar West, Palghar - 401404",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 12.0,
+    "lat": 19.696,
+    "lng": 72.765,
+    "speciality": "District Headquarters Hospital, Multi-speciality Surgery, Intensive Care, Dialysis",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2525 252102",
+    "costRange": "Free",
+    "beds": "200",
+    "doctors": "35",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis",
+      "Trauma Care",
+      "Obstetrics & Gynecology",
+      "General Surgery",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Sonography",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Palghar,+Mahim+Road,+Palghar+West,+Palghar+-+401404"
+  },
+  {
+    "id": "mh-rat-1",
+    "name": "B.K.L. Walawalkar Rural Medical College & Hospital",
+    "district": "Ratnagiri",
+    "taluka": "Chiplun",
+    "address": "Mumbai-Goa Highway, Kasarwadi, Dervan, Chiplun, Ratnagiri - 415606",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 22.0,
+    "lat": 17.514,
+    "lng": 73.535,
+    "speciality": "Apex Rural Teaching Hospital in Konkan, Oncology, Cardiac Surgery, Level 1 Trauma, Free Cancer Screening",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2355 264137",
+    "costRange": "Highly Subsidized / Free Charitable Wards",
+    "beds": "650",
+    "doctors": "120",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Radiation Oncology",
+      "Cardiothoracic Surgery",
+      "Neurosurgery",
+      "Pediatrics",
+      "Joint Replacement"
+    ],
+    "diagnostics": [
+      "Linear Accelerator (Cancer)",
+      "MRI 1.5T",
+      "128 Slice CT",
+      "Digital Cath Lab"
+    ],
+    "insurance": [
+      "MJPJAY Cashless",
+      "PM-JAY Empaneled",
+      "Star Health",
+      "All Major TPAs"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Mahatma Jyotiba Phule Jan Arogya Yojana",
+      "Indigent Patients Fund"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=B.K.L.+Walawalkar+Rural+Medical+College+&+Hospital,+Mumbai-Goa+Highway,+Kasarwadi,+Dervan,+Chiplun,+Ratnagiri+-+415606"
+  },
+  {
+    "id": "mh-rat-2",
+    "name": "District Civil Hospital Ratnagiri",
+    "district": "Ratnagiri",
+    "taluka": "Ratnagiri",
+    "address": "Jail Road, Near Maruti Mandir, Ratnagiri - 415612",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 8.5,
+    "lat": 16.994,
+    "lng": 73.305,
+    "speciality": "Coastal District Civil Hospital, Marine Sting & Snakebite Treatment, Emergency Trauma",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2352 222365",
+    "costRange": "Free",
+    "beds": "280",
+    "doctors": "38",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Marine Toxicology / Snakebite Care",
+      "Trauma",
+      "Dialysis",
+      "Maternity"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound",
+      "Pathology",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Ratnagiri,+Jail+Road,+Near+Maruti+Mandir,+Ratnagiri+-+415612"
+  },
+  {
+    "id": "mh-sin-1",
+    "name": "Sub-District Hospital Kankavli",
+    "district": "Sindhudurg",
+    "taluka": "Kankavli",
+    "address": "Mumbai-Goa Highway NH66, Kankavli, Sindhudurg - 416602",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 26.0,
+    "lat": 16.272,
+    "lng": 73.714,
+    "speciality": "Konkan Rural Emergency Hub, Orthopedics, Viper & Cobra Antivenom Centre",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2367 232050",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "14",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Highway Trauma",
+      "Anti-Snake Venom Unit",
+      "Obstetrics",
+      "General Medicine"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Sonography",
+      "Clinical Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Kankavli,+Mumbai-Goa+Highway+NH66,+Kankavli,+Sindhudurg+-+416602"
+  },
+  {
+    "id": "mh-sat-1",
+    "name": "Rural Hospital Patan",
+    "district": "Satara",
+    "taluka": "Patan",
+    "address": "Karad-Chiplun State Highway, Patan, Satara - 415206",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 30.0,
+    "lat": 17.375,
+    "lng": 73.901,
+    "speciality": "Remote Koyna Backwaters Healthcare, Landslide & Ghat Emergency Response, Maternal Health",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2372 283100",
+    "costRange": "Free",
+    "beds": "30",
+    "doctors": "6",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency Trauma",
+      "Maternity Wards",
+      "Anti-Snake Venom Unit",
+      "OPD"
+    ],
+    "diagnostics": [
+      "Basic Pathology",
+      "X-Ray",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Patan,+Karad-Chiplun+State+Highway,+Patan,+Satara+-+415206"
+  },
+  {
+    "id": "mh-sat-2",
+    "name": "Krishna Institute of Medical Sciences (KIMS Karad)",
+    "district": "Satara",
+    "taluka": "Karad",
+    "address": "Malkapur, Pune-Bangalore Highway, Karad, Satara - 415539",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 18.0,
+    "lat": 17.268,
+    "lng": 74.195,
+    "speciality": "Apex Super-Speciality Hospital in South Maharashtra, Organ Transplant, Robotic Surgery, Cardiac ICU",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2164 241555",
+    "costRange": "₹400 – ₹1,80,000 (Subsidized Charitable Wards)",
+    "beds": "1125",
+    "doctors": "260",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Cardiology & Cath Lab",
+      "Neurosurgery",
+      "Renal Transplant",
+      "Oncology",
+      "Trauma & Critical Care"
+    ],
+    "diagnostics": [
+      "MRI 3 Tesla",
+      "CT Scan 128 Slice",
+      "Digital Cath Lab",
+      "Blood Component Center"
+    ],
+    "insurance": [
+      "MJPJAY Empaneled",
+      "PM-JAY Cashless",
+      "All Major TPAs"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Mahatma Jyotiba Phule Jan Arogya Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Krishna+Institute+of+Medical+Sciences+(KIMS+Karad),+Malkapur,+Pune-Bangalore+Highway,+Karad,+Satara+-+415539"
+  },
+  {
+    "id": "mh-sat-3",
+    "name": "Kranti Sinha Nana Patil District Civil Hospital Satara",
+    "district": "Satara",
+    "taluka": "Satara",
+    "address": "Sadar Bazar, Camp, Satara - 415001",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 8.0,
+    "lat": 17.691,
+    "lng": 74.004,
+    "speciality": "District Civil Hospital, General Surgery, Dialysis, SNCU Pediatric Unit",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2162 233101",
+    "costRange": "Free",
+    "beds": "350",
+    "doctors": "45",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis",
+      "NICU/SNCU",
+      "General Surgery",
+      "Orthopedics",
+      "Eye OPD"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Ultrasound",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kranti+Sinha+Nana+Patil+District+Civil+Hospital+Satara,+Sadar+Bazar,+Camp,+Satara+-+415001"
+  },
+  {
+    "id": "mh-ahm-1",
+    "name": "Rural Hospital Akole (Kalsubai Tribal Valley)",
+    "district": "Ahmednagar",
+    "taluka": "Akole",
+    "address": "Sangamner-Rajur Road, Akole Tribal Belt, Ahmednagar - 422601",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 32.0,
+    "lat": 19.542,
+    "lng": 74.008,
+    "speciality": "Remote Western Ghats Tribal Hospital, Antivenom & Anti-Rabies, Maternal Deliveries",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2424 221200",
+    "costRange": "Free",
+    "beds": "50",
+    "doctors": "8",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency First Response",
+      "Labor Room",
+      "OPD",
+      "Snakebite Ward"
+    ],
+    "diagnostics": [
+      "Basic Pathology",
+      "X-Ray",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Akole+(Kalsubai+Tribal+Valley),+Sangamner-Rajur+Road,+Akole+Tribal+Belt,+Ahmednagar+-+422601"
+  },
+  {
+    "id": "mh-ahm-2",
+    "name": "Pravara Rural Medical College & Hospital (Loni)",
+    "district": "Ahmednagar",
+    "taluka": "Rahata",
+    "address": "Loni-Pravaranagar, Taluka Rahata, Ahmednagar - 413736",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 25.0,
+    "lat": 19.588,
+    "lng": 74.455,
+    "speciality": "Famous Rural Medical University & Tertiary Hospital, Cardiac, Oncology, Low-Cost Rural Wards",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2422 273600",
+    "costRange": "₹250 – ₹60,000 (Charity Subsidies)",
+    "beds": "1275",
+    "doctors": "220",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Cardiology & Cath Lab",
+      "Oncology",
+      "Pediatric Surgery",
+      "Nephrology & Dialysis",
+      "Orthopedics"
+    ],
+    "diagnostics": [
+      "MRI",
+      "Spiral CT",
+      "Color Doppler",
+      "Fully Automated Labs"
+    ],
+    "insurance": [
+      "PM-JAY Empaneled",
+      "MJPJAY Cashless",
+      "All Major TPAs"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Indigent Patients Fund"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pravara+Rural+Medical+College+&+Hospital+(Loni),+Loni-Pravaranagar,+Taluka+Rahata,+Ahmednagar+-+413736"
+  },
+  {
+    "id": "mh-yav-1",
+    "name": "Shri Vasantrao Naik Government Medical College & Hospital",
+    "district": "Yavatmal",
+    "taluka": "Yavatmal",
+    "address": "Civil Lines, Yavatmal - 445001",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 7.0,
+    "lat": 20.395,
+    "lng": 78.128,
+    "speciality": "Apex Vidarbha Medical College, Pesticide Poisoning Protocol Unit, Agrarian Trauma Center",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7232 242456",
+    "costRange": "100% Free",
+    "beds": "800",
+    "doctors": "160",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Toxicology & ICU (Pesticide Center)",
+      "Trauma",
+      "Pediatrics",
+      "Cardiology",
+      "Burn Unit"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Dialysis",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Balasaheb Thackeray Accident Insurance Scheme"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shri+Vasantrao+Naik+Government+Medical+College+&+Hospital,+Civil+Lines,+Yavatmal+-+445001"
+  },
+  {
+    "id": "mh-yav-2",
+    "name": "Rural Hospital Ghatanji",
+    "district": "Yavatmal",
+    "taluka": "Ghatanji",
+    "address": "Main Road, Ghatanji Tribal Pocket, Yavatmal - 445301",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 38.0,
+    "lat": 20.138,
+    "lng": 78.318,
+    "speciality": "Kolam Tribal Belt Rural Hospital, Sickle Cell Management, Institutional Delivery",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7230 277200",
+    "costRange": "Free",
+    "beds": "30",
+    "doctors": "5",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Sickle Cell OPD",
+      "Maternity",
+      "OPD",
+      "Emergency First Response"
+    ],
+    "diagnostics": [
+      "Rapid Sickle Screening",
+      "Hemoglobin",
+      "Blood Sugar"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Ghatanji,+Main+Road,+Ghatanji+Tribal+Pocket,+Yavatmal+-+445301"
+  },
+  {
+    "id": "mh-was-1",
+    "name": "District Civil Hospital Washim",
+    "district": "Washim",
+    "taluka": "Washim",
+    "address": "Risod Road, Washim Headquarter - 444505",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 9.0,
+    "lat": 20.108,
+    "lng": 77.135,
+    "speciality": "District Government Hospital, General Surgery, Dialysis, Maternity Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7252 232115",
+    "costRange": "Free",
+    "beds": "200",
+    "doctors": "28",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis Unit",
+      "Maternity",
+      "General OPD",
+      "Trauma Care"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Ultrasound",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Washim,+Risod+Road,+Washim+Headquarter+-+444505"
+  },
+  {
+    "id": "mh-bee-1",
+    "name": "District Civil Hospital Beed",
+    "district": "Beed",
+    "taluka": "Beed",
+    "address": "Jalna Road, Near Bus Stand, Beed - 431122",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 8.0,
+    "lat": 18.989,
+    "lng": 75.755,
+    "speciality": "Marathwada District Hospital, Heat Stroke Care Unit, Maternal & Women Health",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2442 222405",
+    "costRange": "Free",
+    "beds": "350",
+    "doctors": "44",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Heat Stroke Dedicated Ward",
+      "Maternity & C-Section",
+      "Pediatrics",
+      "Trauma"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "CT Scan",
+      "Pathology",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Janani Suraksha Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Beed,+Jalna+Road,+Near+Bus+Stand,+Beed+-+431122"
+  },
+  {
+    "id": "mh-dha-1",
+    "name": "District Civil Hospital Dharashiv (Osmanabad)",
+    "district": "Dharashiv",
+    "taluka": "Dharashiv",
+    "address": "Solapur-Aurangabad Road, Dharashiv - 413501",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 11.0,
+    "lat": 18.185,
+    "lng": 76.042,
+    "speciality": "District Government Hospital, Orthopedic Trauma, Dialysis Unit, Maternal Health",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2472 222125",
+    "costRange": "Free",
+    "beds": "250",
+    "doctors": "34",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis",
+      "Emergency Trauma",
+      "Maternity",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Ultrasound",
+      "Clinical Labs"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Dharashiv+(Osmanabad),+Solapur-Aurangabad+Road,+Dharashiv+-+413501"
+  },
+  {
+    "id": "mh-cha-1",
+    "name": "Government Medical College & Hospital Chandrapur",
+    "district": "Chandrapur",
+    "taluka": "Chandrapur",
+    "address": "Ramnagar Road, Near Forest Academy, Chandrapur - 442401",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 7.5,
+    "lat": 19.958,
+    "lng": 79.295,
+    "speciality": "Eastern Vidarbha Apex Medical College, Thermal Power Plant Occupational Health, Trauma",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7172 252522",
+    "costRange": "Free",
+    "beds": "600",
+    "doctors": "95",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Occupational Lung Diseases",
+      "Trauma Care",
+      "Burn Unit",
+      "Pediatrics",
+      "General Surgery"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Bronchoscopy",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Government+Medical+College+&+Hospital+Chandrapur,+Ramnagar+Road,+Near+Forest+Academy,+Chandrapur+-+442401"
+  },
+  {
+    "id": "mh-gon-1",
+    "name": "District General Hospital Gondia",
+    "district": "Gondia",
+    "taluka": "Gondia",
+    "address": "Kudwa Naka, Gondia - 441614",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 6.5,
+    "lat": 21.462,
+    "lng": 80.198,
+    "speciality": "District Government Hospital, Sickle Cell Centre, Malaria Protocol Center",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 7182 236100",
+    "costRange": "Free",
+    "beds": "250",
+    "doctors": "36",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Sickle Cell Clinic",
+      "Emergency Trauma",
+      "Maternity",
+      "Pediatrics"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "National Sickle Cell Mission"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+General+Hospital+Gondia,+Kudwa+Naka,+Gondia+-+441614"
+  },
+  {
+    "id": "mh-rai-1",
+    "name": "District Civil Hospital Alibag",
+    "district": "Raigad",
+    "taluka": "Alibag",
+    "address": "Near Chendhare, Alibag, Raigad - 402201",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 8.0,
+    "lat": 18.641,
+    "lng": 72.872,
+    "speciality": "Coastal District Hospital, Drowning & Marine Trauma Response, Dialysis",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2141 222120",
+    "costRange": "Free",
+    "beds": "200",
+    "doctors": "32",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis Unit",
+      "Emergency Care",
+      "Maternity",
+      "General OPD"
+    ],
+    "diagnostics": [
+      "Digital X-Ray",
+      "Ultrasound",
+      "Clinical Labs"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Alibag,+Near+Chendhare,+Alibag,+Raigad+-+402201"
+  },
+  {
+    "id": "mh-rai-2",
+    "name": "Rural Hospital Mahad",
+    "district": "Raigad",
+    "taluka": "Mahad",
+    "address": "Mumbai-Goa Highway NH66, Mahad, Raigad - 402301",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 32.0,
+    "lat": 18.082,
+    "lng": 73.421,
+    "speciality": "Highway Trauma Care, Flood Emergency Response, Antivenom Centre",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2145 222108",
+    "costRange": "Free",
+    "beds": "50",
+    "doctors": "8",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Highway Emergency Unit",
+      "Maternity",
+      "General Wards"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Pathology Lab",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Balasaheb Thackeray Accident Scheme"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Mahad,+Mumbai-Goa+Highway+NH66,+Mahad,+Raigad+-+402301"
+  },
+  {
+    "id": "mh-nas-1",
+    "name": "Rural Hospital Surgana (Remote Tribal Taluka)",
+    "district": "Nashik",
+    "taluka": "Surgana",
+    "address": "Waghai-Surgana Road, Surgana Tribal Pocket, Nashik - 422211",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 45.0,
+    "lat": 20.572,
+    "lng": 73.618,
+    "speciality": "Deep Ghats Tribal Healthcare, Traditional Healing & Modern Medicine Integration, SAM Treatment",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2571 222100",
+    "costRange": "Free",
+    "beds": "30",
+    "doctors": "6",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Tribal OPD",
+      "Labor Room",
+      "NRC Malnutrition",
+      "Emergency First Aid"
+    ],
+    "diagnostics": [
+      "Basic Labs",
+      "Hemoglobin",
+      "X-Ray"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rural+Hospital+Surgana+(Remote+Tribal+Taluka),+Waghai-Surgana+Road,+Surgana+Tribal+Pocket,+Nashik+-+422211"
+  },
+  {
+    "id": "mh-nas-2",
+    "name": "District Civil Hospital Nashik",
+    "district": "Nashik",
+    "taluka": "Nashik",
+    "address": "Trimbak Road, Near CBS, Nashik - 422002",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 8.0,
+    "lat": 19.995,
+    "lng": 73.785,
+    "speciality": "Northern Maharashtra Apex Civil Hospital, Dialysis, Neonatology, Comprehensive Surgery",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 253 2576106",
+    "costRange": "Free",
+    "beds": "550",
+    "doctors": "75",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Dialysis",
+      "Trauma Center",
+      "NICU",
+      "General Surgery",
+      "Orthopedics"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Color Doppler",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=District+Civil+Hospital+Nashik,+Trimbak+Road,+Near+CBS,+Nashik+-+422002"
+  },
+  {
+    "id": "mh-pun-1",
+    "name": "Primary Health Centre (PHC) Khed",
+    "district": "Pune",
+    "taluka": "Khed",
+    "address": "Opposite Gram Panchayat, Rajgurunagar, Khed, Pune - 410505",
+    "type": "Government",
+    "category": "PHC",
+    "distance": 2.4,
+    "lat": 18.854,
+    "lng": 73.896,
+    "speciality": "General Medicine, Maternal & Child Care, Free Immunization",
+    "emergency": false,
+    "hours": "9:00 AM – 5:00 PM",
+    "status": "Open now",
+    "phone": "+91 2135 222108",
+    "costRange": "Free",
+    "beds": "12",
+    "doctors": "3",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "General OPD",
+      "Immunization",
+      "Maternity",
+      "Pathology Lab"
+    ],
+    "diagnostics": [
+      "Basic Blood Test",
+      "Urine Routine",
+      "Malaria Smear"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Primary+Health+Centre+(PHC)+Khed,+Opposite+Gram+Panchayat,+Rajgurunagar,+Khed,+Pune+-+410505"
+  },
+  {
+    "id": "mh-pun-2",
+    "name": "Community Health Centre (CHC) Chakan",
+    "district": "Pune",
+    "taluka": "Khed",
+    "address": "Talegaon-Chakan Road, Near Bus Stand, Chakan, Pune - 410501",
+    "type": "Government",
+    "category": "CHC",
+    "distance": 6.8,
+    "lat": 18.758,
+    "lng": 73.856,
+    "speciality": "Emergency, General Surgery, Obstetrics & Gynecology, Pediatrics",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2135 249100",
+    "costRange": "Free / Up to ₹500",
+    "beds": "30",
+    "doctors": "8",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency & Trauma",
+      "General Surgery",
+      "Pediatrics",
+      "Gynecology & Obstetrics",
+      "Radiology"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Ultrasound",
+      "Complete Blood Count",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY",
+      "RSBY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "RBSK",
+      "National Health Mission"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Community+Health+Centre+(CHC)+Chakan,+Talegaon-Chakan+Road,+Near+Bus+Stand,+Chakan,+Pune+-+410501"
+  },
+  {
+    "id": "mh-pun-3",
+    "name": "Sassoon General Hospital & B.J. Govt Medical College",
+    "district": "Pune",
+    "taluka": "Pune City",
+    "address": "Station Road, Near Pune Railway Station, Pune - 411001",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 18.5,
+    "lat": 18.5283,
+    "lng": 73.8741,
+    "speciality": "Apex Tertiary Care, Trauma Centre, Cardiology, Oncology, Neurosurgery",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 2612 8000",
+    "costRange": "100% Free / Subsidized",
+    "beds": "1296",
+    "doctors": "240",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Trauma & Emergency",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "Neurosurgery",
+      "Oncology",
+      "Pediatrics",
+      "Burn ICU"
+    ],
+    "diagnostics": [
+      "MRI (1.5T & 3T)",
+      "CT Scan 128-slice",
+      "Digital Cath Lab",
+      "Advanced Biochemistry",
+      "Histopathology"
+    ],
+    "insurance": [
+      "PM-JAY Cashless",
+      "MJPJAY Free",
+      "ESIC",
+      "CGHS"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Mahatma Jyotiba Phule Jan Arogya Yojana",
+      "Mukhyamantri Sahayata Nidhi",
+      "Rashtriya Arogya Nidhi"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sassoon+General+Hospital+&+B.J.+Govt+Medical+College,+Station+Road,+Near+Pune+Railway+Station,+Pune+-+411001"
+  },
+  {
+    "id": "mh-pun-4",
+    "name": "Sub-District Hospital Manchar",
+    "district": "Pune",
+    "taluka": "Ambegaon",
+    "address": "Pune-Nashik Highway, Manchar, Taluka Ambegaon, Pune - 410503",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 22.0,
+    "lat": 19.0062,
+    "lng": 73.943,
+    "speciality": "Rural Sub-District Hospital, Trauma Care, Maternal Health",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2133 223100",
+    "costRange": "Free",
+    "beds": "100",
+    "doctors": "18",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Trauma Care",
+      "Obstetrics",
+      "General OPD",
+      "Pediatrics",
+      "Minor Surgery"
+    ],
+    "diagnostics": [
+      "X-Ray",
+      "Blood Testing Lab",
+      "ECG"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Janani Suraksha Yojana",
+      "RBSK"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sub-District+Hospital+Manchar,+Pune-Nashik+Highway,+Manchar,+Taluka+Ambegaon,+Pune+-+410503"
+  },
+  {
+    "id": "mh-pun-5",
+    "name": "Government Medical College & Hospital Baramati",
+    "district": "Pune",
+    "taluka": "Baramati",
+    "address": "MIDC Area, Baramati, Pune - 413133",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 48.0,
+    "lat": 18.152,
+    "lng": 74.578,
+    "speciality": "Government Teaching Hospital, Multi-speciality Surgery, Critical Care, Dialysis",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 2112 244172",
+    "costRange": "Free",
+    "beds": "500",
+    "doctors": "85",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Trauma & Surgery",
+      "Dialysis Unit",
+      "Maternity & NICU",
+      "Orthopedics",
+      "Cardiology"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "Digital X-Ray",
+      "Blood Bank",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Government+Medical+College+&+Hospital+Baramati,+MIDC+Area,+Baramati,+Pune+-+413133"
+  },
+  {
+    "id": "mh-pun-6",
+    "name": "YCM Hospital (Pimpri-Chinchwad)",
+    "district": "Pune",
+    "taluka": "Haveli",
+    "address": "Sant Tukaram Nagar, Pimpri, Pune - 411018",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 14.2,
+    "lat": 18.6256,
+    "lng": 73.8188,
+    "speciality": "Municipal Tertiary Hospital, Multi-speciality, Emergency & Trauma",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 2742 0000",
+    "costRange": "Free / Low Nominal Cost",
+    "beds": "750",
+    "doctors": "140",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency Medicine",
+      "General Surgery",
+      "Orthopedics",
+      "Pediatrics",
+      "ENT",
+      "Dialysis"
+    ],
+    "diagnostics": [
+      "CT Scan",
+      "X-Ray",
+      "Ultrasonography",
+      "Blood Bank",
+      "Pathology"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY",
+      "PCMC Urban Health"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=YCM+Hospital+(Pimpri-Chinchwad),+Sant+Tukaram+Nagar,+Pimpri,+Pune+-+411018"
+  },
+  {
+    "id": "mh-pun-7",
+    "name": "Ruby Hall Clinic (Pune Station)",
+    "district": "Pune",
+    "taluka": "Pune City",
+    "address": "40, Sassoon Road, Sangamvadi, Pune - 411001",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 18.8,
+    "lat": 18.5326,
+    "lng": 73.877,
+    "speciality": "Cardiology, Organ Transplant, Oncology, Neurosciences, Level 1 Trauma",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 6645 5100",
+    "costRange": "₹1,500 – ₹2,50,000",
+    "beds": "600",
+    "doctors": "180",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Cardiology & Cath Lab",
+      "Oncology",
+      "Neurosurgery",
+      "Organ Transplant",
+      "Critical Care ICU"
+    ],
+    "diagnostics": [
+      "PET-CT",
+      "3T MRI",
+      "Cath Lab",
+      "Advanced Genomic Testing"
+    ],
+    "insurance": [
+      "All TPA Insurance",
+      "Star Health",
+      "HDFC ERGO",
+      "PM-JAY Empaneled (Select procedures)",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY (Select Procedures)",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruby+Hall+Clinic+(Pune+Station),+40,+Sassoon+Road,+Sangamvadi,+Pune+-+411001"
+  },
+  {
+    "id": "mh-pun-8",
+    "name": "Dr. D.Y. Patil Medical College Hospital & Research Centre",
+    "district": "Pune",
+    "taluka": "Haveli",
+    "address": "Sant Tukaram Nagar, Pimpri, Pune - 411018",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 14.5,
+    "lat": 18.6215,
+    "lng": 73.821,
+    "speciality": "Large Teaching Hospital, Super-Speciality, IVF, Organ Transplant, 24x7 Emergency",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 2780 5100",
+    "costRange": "₹300 – ₹60,000 (Charitable Beds Available)",
+    "beds": "2000",
+    "doctors": "350",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Emergency & Trauma",
+      "Cardiology",
+      "Neurology",
+      "Plastic Surgery",
+      "Pediatric Surgery"
+    ],
+    "diagnostics": [
+      "MRI 3 Tesla",
+      "CT 128 Slice",
+      "Digital Mammography",
+      "Robotic Cath Lab"
+    ],
+    "insurance": [
+      "PM-JAY Cashless",
+      "MJPJAY Cashless",
+      "All Private TPAs"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Mahatma Jyotiba Phule Jan Arogya Yojana"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dr.+D.Y.+Patil+Medical+College+Hospital+&+Research+Centre,+Sant+Tukaram+Nagar,+Pimpri,+Pune+-+411018"
+  },
+  {
+    "id": "mh-pun-9",
+    "name": "Deenanath Mangeshkar Hospital & Research Centre",
+    "district": "Pune",
+    "taluka": "Pune City",
+    "address": "Near Mhatre Bridge, Erandwane, Pune - 411004",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 21.0,
+    "lat": 18.5042,
+    "lng": 73.8327,
+    "speciality": "Trust Hospital, Multi-speciality, Pediatrics, Cancer, Cardiology",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 4015 1000",
+    "costRange": "₹600 – ₹1,20,000 (Subsidized Rates)",
+    "beds": "800",
+    "doctors": "210",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Pediatric Cardiology",
+      "Medical Oncology",
+      "Joint Replacement",
+      "Nephrology & Dialysis"
+    ],
+    "diagnostics": [
+      "MRI",
+      "Dual Source CT",
+      "Nuclear Medicine",
+      "Automated Pathology"
+    ],
+    "insurance": [
+      "All Major Health Insurers",
+      "PM-JAY",
+      "MJPJAY Trust Quota"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY",
+      "Indigent Patients Fund"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deenanath+Mangeshkar+Hospital+&+Research+Centre,+Near+Mhatre+Bridge,+Erandwane,+Pune+-+411004"
+  },
+  {
+    "id": "mh-pun-10",
+    "name": "ABC Multispeciality Hospital",
+    "district": "Pune",
+    "taluka": "Khed",
+    "address": "Near Pune-Nashik Highway Bypass, Chakan, Pune - 410501",
+    "type": "Private",
+    "category": "Hospital",
+    "distance": 8.2,
+    "lat": 18.752,
+    "lng": 73.832,
+    "speciality": "Cardiology, Orthopedics, Intensive Care Unit, General Surgery",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 20 6688 9900",
+    "costRange": "₹500 – ₹15,000",
+    "beds": "110",
+    "doctors": "24",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "ICU / CCU",
+      "Trauma Care"
+    ],
+    "diagnostics": [
+      "MRI",
+      "CT Scan",
+      "Digital X-Ray",
+      "Pathology Lab"
+    ],
+    "insurance": [
+      "Star Health",
+      "HDFC ERGO",
+      "PM-JAY Cashless",
+      "Care Health"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=ABC+Multispeciality+Hospital,+Near+Pune-Nashik+Highway+Bypass,+Chakan,+Pune+-+410501"
+  },
+  {
+    "id": "mh-nag-1",
+    "name": "Government Medical College & Hospital (GMCH Nagpur)",
+    "district": "Nagpur",
+    "taluka": "Nagpur Urban",
+    "address": "Medical Square, Hanuman Nagar, Nagpur - 440003",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 12.0,
+    "lat": 21.127,
+    "lng": 79.098,
+    "speciality": "Apex Medical College in Central India, Multi-Organ Transplant, Burn ICU, Trauma Centre",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 712 2744671",
+    "costRange": "100% Free",
+    "beds": "1400",
+    "doctors": "310",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Cardiothoracic Surgery",
+      "Neurosurgery",
+      "Pediatric Surgery",
+      "Trauma",
+      "Oncology"
+    ],
+    "diagnostics": [
+      "MRI 3T",
+      "CT 128 Slice",
+      "Cath Lab",
+      "Blood Bank"
+    ],
+    "insurance": [
+      "PM-JAY Cashless",
+      "MJPJAY Free"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "Mahatma Jyotiba Phule Jan Arogya Yojana",
+      "Mukhyamantri Sahayata Nidhi"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Government+Medical+College+&+Hospital+(GMCH+Nagpur),+Medical+Square,+Hanuman+Nagar,+Nagpur+-+440003"
+  },
+  {
+    "id": "mh-aur-1",
+    "name": "Govt Medical College & Hospital (GMCH Chhatrapati Sambhajinagar)",
+    "district": "Chhatrapati Sambhajinagar",
+    "taluka": "Sambhajinagar",
+    "address": "Panchakki Road, Chhatrapati Sambhajinagar - 431001",
+    "type": "Government",
+    "category": "Hospital",
+    "distance": 10.0,
+    "lat": 19.895,
+    "lng": 75.318,
+    "speciality": "Apex Marathwada Medical College, Super-Speciality Hospital, Tertiary Emergency Care",
+    "emergency": true,
+    "hours": "24x7",
+    "status": "Open 24 Hours",
+    "phone": "+91 240 2402412",
+    "costRange": "100% Free",
+    "beds": "1170",
+    "doctors": "240",
+    "pharmacy": true,
+    "accessible": true,
+    "departments": [
+      "Nephrology & Dialysis",
+      "Cardiology",
+      "Trauma",
+      "Obstetrics",
+      "Oncology"
+    ],
+    "diagnostics": [
+      "MRI",
+      "CT Scan",
+      "Color Doppler",
+      "Blood Component Unit"
+    ],
+    "insurance": [
+      "PM-JAY",
+      "MJPJAY"
+    ],
+    "schemes": [
+      "Ayushman Bharat PM-JAY",
+      "MJPJAY"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Govt+Medical+College+&+Hospital+(GMCH+Chhatrapati+Sambhajinagar),+Panchakki+Road,+Chhatrapati+Sambhajinagar+-+431001"
+  }
+]
