@@ -3,7 +3,7 @@
  * Serves 45+ Maharashtra facilities across remote & urban districts.
  */
 
-const API_BASE = '/api';
+const API_BASE = 'https://swasthyasetu-ai-eu9l.onrender.com';
 
 const fallbackFacilities = [
   {
