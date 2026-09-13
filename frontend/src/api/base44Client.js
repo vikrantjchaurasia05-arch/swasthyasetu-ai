@@ -2203,20 +2203,106 @@ export const base44 = {
   },
   ai: {
     async chat(question, lang = 'en') {
+      // Try backend first
       try {
         const res = await fetch(`${API_BASE}/chat`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ question, lang }),
+          signal: AbortSignal.timeout(5000),
         });
         if (res.ok) {
           const data = await res.json();
-          return data.reply;
+          if (data.reply) return data.reply;
         }
       } catch (e) {
-        console.warn('AI API unreachable, fallback to local response:', e);
+        console.warn('AI backend unreachable, using local health knowledge:', e);
       }
-      return null;
+      // Fallback: answer using local healthKnowledge.js (works 100% offline / on Vercel)
+      return localAnswerHealthQuery(question, lang);
     }
   }
 };
+
+// ─── Local AI Engine (works without backend) ──────────────────────────────
+const LOCAL_TOPICS = [
+  { id: 'emergency', keys: ['chest pain','heart attack','stroke','paralysis','severe bleeding','unconscious','fainting','छातीत','हार्ट','सीने','दिल का दौरा','पक्षाघात','लकवा','रक्तस्त्राव','बेहोश'],
+    en: '🚨 IMMEDIATE EMERGENCY — Call 108 now.\n\nPrecautions:\n• Sit or lie the person down. Keep them calm. Do not leave them alone.\n• Loosen tight clothing. Do not give food, water, or home remedies.\n• If they stop breathing, start CPR if trained.\n• Note the time symptoms started.\n\nCall 108 for chest pain, one-sided weakness, sudden speech trouble, heavy bleeding, or fainting.',
+    mr: '🚨 तात्काळ आपत्कालीन — आत्ताच १०८ वर कॉल करा.\n\n• रुग्णाला बसवा/झोपवा. एकटे सोडू नका.\n• घट्ट कपडे सैल करा. खाणे-पिणे देऊ नका.\n• श्वास थांबल्यास CPR. लक्षण दिसताच १०८.',
+    hi: '🚨 तुरंत आपातकाल — अभी १०८ पर कॉल करें।\n\n• मरीज को बैठाएं/लिटाएं। अकेला न छोड़ें।\n• तंग कपड़े ढीले करें। खाना-पीना न दें।\n• सांस रुकने पर CPR। लक्षण दिखते ही १०८।' },
+  { id: 'fever', keys: ['fever','ताप','बुखार','dengue','डेंग्यू','डेंगू','malaria','मलेरिया','typhoid','टायफॉईड','cold','cough','खांसी','सर्दी','खोकला'],
+    en: '🌡️ Fever, Cough & Monsoon Infections\n\nHome care:\n• Rest. Drink ORS, boiled water, coconut water.\n• Sponge with lukewarm cloth. No ice-cold water.\n• Paracetamol as advised. Avoid Aspirin/Ibuprofen in dengue (bleeding risk).\n• Use mosquito nets. Empty stored water weekly.\n\n⚠️ See a doctor if fever > 3 days, rash, vomiting, bleeding gums, or breathlessness.',
+    mr: '🌡️ ताप / पावसाळी संसर्ग\n\nविश्रांती, ओआरएस, कोमट फडके. डेंग्यूत ॲस्पिरिन टाळा. मच्छरदाणी वापरा. ३ दिवसांपेक्षा जास्त ताप, पुरळ, उलट्या — PHC/CHC ला जा.',
+    hi: '🌡️ बुखार और मौसमी संक्रमण\n\nआराम, ORS, गुनगुनी पट्टी। डेंगू में एस्पिरिन न लें। मच्छरदानी। ३ दिन से अधिक बुखार, चकत्ते, उल्टी — तुरंत डॉक्टर।' },
+  { id: 'headache', keys: ['headache','migraine','डोकेदुखी','सिरदर्द','माइग्रेन'],
+    en: '🤕 Headache & Migraine\n\nHome Care:\n• Drink plenty of water. Rest in a dark, quiet room.\n• 7-8 hours sleep. Do not skip meals.\n• Limit tea, coffee, screen time.\n\n🚨 Emergency: Sudden worst headache of life + vomiting + stiff neck = call 108 immediately.',
+    mr: '🤕 डोकेदुखी / मायग्रेन\n\nभरपूर पाणी प्या, अंधाऱ्या शांत खोलीत झोपा. जेवण वगळू नका. अचानक तीव्र डोकेदुखी + उलट्या = लगेच १०८.',
+    hi: '🤕 सिरदर्द और माइग्रेन\n\nखूब पानी पिएं, अंधेरे कमरे में आराम करें। भोजन न छोड़ें। अचानक भयंकर सिरदर्द + उल्टी = तुरंत १०८।' },
+  { id: 'stomach', keys: ['stomach','पोटदुखी','पेट दर्द','acidity','ऍसिडिटी','एसिडिटी','vomit','उलटी','diarrhea','जुलाब','दस्त','loose motion','food poisoning'],
+    en: '🩺 Stomach Upset, Acidity & Diarrhoea\n\n• Diarrhoea: Sip ORS frequently. Eat bananas, curd, khichdi. Avoid oily/spicy food.\n• Acidity: Eat smaller, frequent meals. Avoid lying down right after eating. Limit tea/coffee.\n• Wash hands with soap before meals.\n\n⚠️ Seek help if blood in stool, repeated vomiting, or no urination.',
+    mr: '🩺 पोटदुखी / ऍसिडिटी\n\nओआरएस सतत प्या. हलके जेवण घ्या. तिखट-तेलकट टाळा. रक्ताळ जुलाब, सतत उलट्या — लगेच डॉक्टर.',
+    hi: '🩺 पेट दर्द / एसिडिटी\n\nORS पिएँ। हल्का भोजन लें। मसालेदार न खाएं। खूनी दस्त या लगातार उल्टी — तुरंत डॉक्टर।' },
+  { id: 'diabetes_bp', keys: ['diabetes','sugar','मधुमेह','साखर','शुगर','blood pressure','bp','रक्तदाब','बीपी','hypertension','insulin'],
+    en: '🩺 Diabetes & Blood Pressure\n\nDaily precautions:\n• Take tablets on time. Never stop suddenly.\n• Cut salt, fried food, sweets, and sugary tea.\n• Walk 30-40 minutes daily.\n• Check sugar and BP regularly.\n\n⚠️ Go to hospital: chest pain, sudden weakness, sweating/confusion (low sugar), or severe headache.',
+    mr: '🩺 मधुमेह आणि रक्तदाब\n\nऔषधे वेळेवर घ्या, मीठ-साखर कमी करा, रोज ३० मिनिटे चाला. औषध अचानक बंद करू नका.',
+    hi: '🩺 शुगर और ब्लड प्रेशर\n\nदवा समय पर लें, नमक-चीनी कम करें, रोज चलें। दवा अचानक बंद न करें।' },
+  { id: 'firstaid', keys: ['burn','भाजणे','जलना','bite','चावणे','काटना','dog','snake','साप','कुत्रा','rabies','wound','cut','fracture','sprain','poisoning','choking'],
+    en: '🩹 First Aid\n\n• Burns: Cool under running water 10–15 min. No toothpaste or oil.\n• Cuts: Wash with soap/water, press to stop bleeding.\n• Dog bite: Wash 15 min with soap + water. Same-day anti-rabies & tetanus shot.\n• Snake bite: Keep limb still. Do NOT cut or suck. Call 108.\n• Poisoning: Do NOT induce vomiting. Rush to hospital with the bottle.\n• Sprain: Rest, Ice, Compression, Elevation (RICE).',
+    mr: '🩹 प्रथमोपचार\n\nभाजणे: वाहते पाणी १०-१५ मिनिटे. टूथपेस्ट लावू नका. प्राणी चावा: साबणाने धुवा + रेबीज लस. साप: चीरु नका, १०८.',
+    hi: '🩹 प्राथमिक उपचार\n\nजलना: नल का पानी १०-१५ मिनट। काटना: साबुन से धोएं + रेबीज टीका। सांप: काटें नहीं, १०८।' },
+  { id: 'child', keys: ['child','baby','infant','vaccination','immunization','मुल','बाळ','टीका','टीकाकरण','pneumonia','measles','malnutrition'],
+    en: '👶 Child Health & Vaccination\n\n• Exclusive breastfeeding for 6 months, then mashed home food.\n• Complete all vaccines on MCP card at PHC/Anganwadi.\n• For diarrhoea: ORS + Zinc.\n\n🚨 Call 108: fast breathing, blue lips, convulsions, cannot feed, extreme lethargy.',
+    mr: '👶 बाल आरोग्य\n\n६ महिने स्तनपान. MCP कार्डवरील सर्व लसी घ्या. जुलाबात ओआरएस+झिंक. झटके/श्वास जलद — १०८.',
+    hi: '👶 बाल स्वास्थ्य\n\n६ महीने स्तनपान। MCP कार्ड के सभी टीके। दस्त में ORS+जिंक। दौरे/तेज सांस — १०८।' },
+  { id: 'pregnancy', keys: ['pregnant','pregnancy','गर्भवती','गरोदर','प्रसूती','बाळंतपण','delivery','डिलीवरी','anc'],
+    en: '🤰 Pregnancy Precautions\n\n• At least 4 ANC visits & TT injections.\n• Daily Iron, Folic Acid, and Calcium tablets.\n• Eat pulses, greens, milk, eggs.\n• Avoid tobacco, alcohol, and self-medication.\n\n🚨 Call 108: bleeding, severe headache, blurred vision, fewer baby movements.',
+    mr: '🤰 गरोदरपणातील खबरदारी\n\n४ ANC, TT, आयर्न-फॉलिक-कॅल्शियम रोज. तंबाखू-दारू टाळा. रक्तस्त्राव किंवा बाळ हलणे कमी — १०८.',
+    hi: '🤰 गर्भावस्था सावधानियाँ\n\n४ ANC, TT, आयरन-फोलिक-कैल्शियम रोज। तंबाकू-शराब न लें। खून आना — १०८।' },
+  { id: 'schemes', keys: ['ayushman','pmjay','scheme','योजना','आयुष्मान','mjpjay','card','कार्ड','free treatment','मोफत उपचार'],
+    en: '📜 Government Health Schemes\n\n• Ayushman Bharat PM-JAY: ₹5 lakh cashless cover per eligible family.\n• MJPJAY (Maharashtra): Cashless in empaneled hospitals.\n• Ayushman Vay Vandana: ₹5 lakh for every citizen aged 70+.\n• JSY: ₹1,400 for institutional delivery.\n\nApply at CSC / Aaple Sarkar with Aadhaar + Ration Card. Do not pay agents.',
+    mr: '📜 सरकारी आरोग्य योजना\n\nPM-JAY (₹५ लाख), MJPJAY कॅशलेस. ७०+ साठी वय वंदना. JSY प्रसूतीसाठी ₹१४००. आधार + रेशन कार्ड घेऊन CSC ला जा.',
+    hi: '📜 सरकारी स्वास्थ्य योजनाएं\n\nPM-JAY (₹५ लाख), MJPJAY कैशलेस। ७०+ के लिए वय वंदना। JSY प्रसव के लिए ₹१४००। आधार + राशन कार्ड लेकर CSC जाएँ।' },
+  { id: 'heat', keys: ['heat','sunstroke','heatstroke','उन्हाळा','लू','dehydrat','गर्मी'],
+    en: '☀️ Heatstroke & Dehydration\n\n• Drink water frequently even if not thirsty.\n• Avoid sun 12–4 PM. Cover head, wear light cotton.\n• Never leave children in parked vehicles.\n\n🚨 High body heat + no sweating + confusion = heatstroke. Cool body with wet cloth & call 108.',
+    mr: '☀️ उष्माघात\n\nवारंवार पाणी प्या, दुपारची ऊन टाळा, डोके झाका. घाम न येता खूप ताप = सावलीत आणा + १०८.',
+    hi: '☀️ लू / डिहाइड्रेशन\n\nबार-बार पानी पिएँ, धूप से बचें, सिर ढकें। पसीना न आए + चक्कर = छाया में लाएँ + १०८।' },
+  { id: 'joint_pain', keys: ['joint pain','arthritis','गुडघेदुखी','सांधेदुखी','जोड़ों का दर्द','गठिया','back pain','पाठदुखी','कमर दर्द'],
+    en: '🦴 Joint Pain & Arthritis\n\n• Maintain healthy weight. Exercise daily (walking, swimming).\n• Proper posture while sitting or lifting.\n• Calcium + Vitamin D (milk, sunlight).\n• Hot/cold compress for relief.\n\nConsult a doctor if joint is swollen, red, or movement is limited.',
+    mr: '🦴 सांधेदुखी\n\nवजन नियंत्रणात ठेवा, नियमित हलका व्यायाम करा. कॅल्शियम + ड-जीवनसत्व घ्या. जास्त सूज = डॉक्टर.',
+    hi: '🦴 जोड़ों का दर्द\n\nवजन नियंत्रित रखें, नियमित व्यायाम करें। कैल्शियम + विटामिन D लें। ज्यादा सूजन = डॉक्टर।' },
+  { id: 'weakness', keys: ['weakness','fatigue','tired','थकवा','अशक्तपणा','कमजोरी','थकान','anemia','रक्तक्षय','खून की कमी'],
+    en: '😴 Weakness, Fatigue & Anemia\n\n• 7-8 hours sleep. Stay hydrated. Do not skip meals.\n• Iron-rich foods: jaggery, spinach, dates, groundnuts, beetroot.\n\nPersistent weakness despite rest → Get CBC blood test at a PHC (free).',
+    mr: '😴 थकवा / अशक्तपणा\n\n७-८ तास झोप, पाणी भरपूर प्या. गूळ-शेंगदाणे, बीट, हिरव्या भाज्या खा. सतत थकवा = CBC तपासणी.',
+    hi: '😴 कमजोरी / एनीमिया\n\n७-८ घंटे सोएं। गुड़, पालक, खजूर, चुकंदर खाएं। लगातार थकान = CBC जांच (सरकारी PHC में मुफ्त)।' },
+  { id: 'tb', keys: ['tb','tuberculosis','क्षय','क्षयरोग','nikshay','asthma','अस्थमा','दमा'],
+    en: '🫁 TB & Respiratory Health\n\n• Cough > 2 weeks → Get tested for TB. It is completely curable.\n• Take the full DOTS course. Never stop early.\n• Nikshay Poshan: ₹500/month nutrition support.\n• Asthma: avoid dust/smoke, always carry inhaler.\n• No smoking.',
+    mr: '🫁 क्षयरोग (TB) व दमा\n\n२ आठवड्यांपेक्षा जास्त खोकला = TB तपासणी. औषध पूर्ण कोर्स घ्या (निकषाय पोषण ₹५००/महिना). दमा = धूळ टाळा, इनहेलर सोबत ठेवा.',
+    hi: '🫁 टीबी और दमा\n\n२ सप्ताह से अधिक खांसी = TB जांच। पूरा कोर्स लें (निःक्षय ₹५००/माह)। अस्थमा = धूल से बचें, इनहेलर साथ रखें।' },
+  { id: 'weight', keys: ['weight','obesity','वजन','मोटापा','diet','आहार'],
+    en: '⚖️ Weight Management & Diet\n\n• Balanced meals: fruits, vegetables, proteins, fiber.\n• No skipping meals. Limit fried/processed food and sugar.\n• Walk 30-45 minutes daily. Drink 8-10 glasses of water.\n\nSudden unexplained weight loss → see a doctor (could be diabetes, TB, or thyroid).',
+    mr: '⚖️ वजन व आहार\n\nसंतुलित आहार, फास्ट फूड टाळा, रोज ३०-४५ मिनिटे व्यायाम करा. अचानक वजन कमी = डॉक्टर.',
+    hi: '⚖️ वजन और आहार\n\nसंतुलित भोजन, फास्ट फूड कम करें, रोज व्यायाम करें। अचानक वजन घटे = डॉक्टर।' },
+  { id: 'hygiene', keys: ['precaution','prevention','hygiene','wash','prevent','health tips','खबरदारी','सावधानी','स्वच्छता'],
+    en: '🛡️ Everyday Health Precautions\n\n• Wash hands with soap before food and after toilet.\n• Drink clean/boiled water. Cover food.\n• Use mosquito nets. Empty water containers weekly.\n• Complete child vaccines and ANC for mothers.\n• Keep ORS, PHC number, and 108 ready.\n\nAsk me about any specific condition — fever, bite, pregnancy, diabetes, joint pain, and more!',
+    mr: '🛡️ रोजची खबरदारी\n\nहात साबणाने धुवा, पाणी उकळा, मच्छरदाणी, लसी पूर्ण करा. ओआरएस व १०८ जवळ ठेवा.',
+    hi: '🛡️ रोज़ की सावधानी\n\nसाबुन से हाथ धोएँ, उबला पानी पिएँ, मच्छरदानी, पूरे टीके। ORS और १०८ पास रखें।' },
+];
+
+function localAnswerHealthQuery(questionRaw, lang) {
+  const q = (questionRaw || '').toLowerCase();
+  let best = null;
+  let bestScore = 0;
+  for (const topic of LOCAL_TOPICS) {
+    let score = 0;
+    for (const key of topic.keys) {
+      if (q.includes(key.toLowerCase())) score += key.length > 6 ? 3 : 1;
+    }
+    if (score > bestScore) { bestScore = score; best = topic; }
+  }
+  const field = lang === 'mr' ? 'mr' : lang === 'hi' ? 'hi' : 'en';
+  if (best && bestScore > 0) return best[field];
+  const q2 = questionRaw || '';
+  if (lang === 'mr') return `नमस्ते! मी स्वास्थ्यसेतू एआय आहे.\n\nतुमचा प्रश्न: "${q2}"\n\nमी ताप, डेंग्यू, मधुमेह, गरोदरपण, प्रथमोपचार, योजना, सांधेदुखी, थकवा यांबाबत मार्गदर्शन करतो. कृपया लक्षण स्पष्ट लिहा.`;
+  if (lang === 'hi') return `नमस्ते! मैं स्वास्थ्यसेतु AI हूँ.\n\nआपका प्रश्न: "${q2}"\n\nमैं बुखार, डेंगू, शुगर, गर्भावस्था, प्राथमिक उपचार, योजनाएं, जोड़ों का दर्द पर मार्गदर्शन कर सकता हूँ।`;
+  return `Hello! I am SwasthyaSetu AI Health Assistant.\n\nYou asked: "${q2}"\n\nI can help with fever, dengue, diabetes, pregnancy, first aid, government schemes, joint pain, fatigue, and more. Please describe your symptom clearly!`;
+}

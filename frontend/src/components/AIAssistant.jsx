@@ -66,16 +66,13 @@ export default function AIAssistant({ compact = false }) {
 
     try {
       const reply = await base44.ai.chat(q, lang);
-      if (reply) {
-        setMessages(m => [...m, { role: 'ai', text: reply }]);
-      } else {
-        setMessages(m => [...m, {
-          role: 'ai',
-          text: lang === 'mr'
-            ? 'धन्यवाद. प्राथमिक तपासणीसाठी जवळच्या प्राथमिक आरोग्य केंद्राला (PHC) भेट द्या किंवा आपत्कालीन स्थितीत १०८ वर संपर्क करा.'
-            : 'Thank you. For medical evaluation, visit your nearest Primary Health Centre or call 108 in an emergency.'
-        }]);
-      }
+      setMessages(m => [...m, { role: 'ai', text: reply || (
+        lang === 'mr'
+          ? 'जवळच्या PHC ला भेट द्या किंवा १०८ वर संपर्क करा.'
+          : lang === 'hi'
+          ? 'नजदीकी PHC पर जाएं या १०८ पर कॉल करें।'
+          : 'Please visit your nearest PHC or call 108 in an emergency.'
+      ) }]);
     } catch (e) {
       console.warn('AI Assistant error:', e);
     } finally {
